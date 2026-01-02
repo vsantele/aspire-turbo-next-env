@@ -27,10 +27,7 @@
     },
     "dev": {
       "cache": false,
-      "persistent": true,
-      "env": [
-        "TEST_*"
-      ]
+      "persistent": true
     }
   }
 }
