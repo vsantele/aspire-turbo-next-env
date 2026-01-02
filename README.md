@@ -22,6 +22,8 @@ To fix the issue, you can modify the [`turbo.json`](./turbo.json) file and add t
 
 Or set the property `"envMode": "loose"` to include all environment variables.
 
+Or use the `globalEnv` property at the root of the `turbo.json` file.
+
 Next, restart the application in the aspire dashboard and refresh the web page. You should now see the environment variable keys displayed correctly.
 
 You can also set a `turbo.json` file for each app individually by placing it in the app's root directory (e.g., `apps/web/turbo.json`).
@@ -35,3 +37,4 @@ Simply go to the branch [fix/turbo-env-config](https://github.com/vsantele/aspir
 - Turborepo: [Package Configuration](https://turborepo.com/docs/reference/package-configurations)
 - Turborepo: [Environment Modes](https://turborepo.com/docs/crafting-your-repository/using-environment-variables#environment-modes)
 - Turborepo: [Configuring Environment Variables](https://turborepo.com/docs/reference/configuration#env)
+- Turborepo: [Configuring Global Environment Variables](https://turborepo.com/docs/reference/configuration#globalenv)
